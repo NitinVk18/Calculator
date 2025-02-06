@@ -1,0 +1,65 @@
+.main{
+    background-color: rgb(197, 220, 189);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Horizontally align if flex direction is row */ 
+    align-items: center;
+     /* Vertically align if flex direction is row */ 
+
+}
+.calculator-box{
+    background-color: hsla(240, 7%, 16%, 0.829);
+    height: 90vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.368);
+    outline: 2px solid black; /* Set a permanent outline */
+  
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.calculator-box .text-screen {
+    text-align: end;
+    background-color: hsla(263, 49%, 82%, 0.751);
+    font-size: 40px;
+    height: 12vh;
+    width: 85%;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    outline: 2px solid black; /* Set a permanent outline */
+    border: none; /* Adjust border if needed */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.368);
+}
+
+.btn{
+    width: 5vw;
+    height: 9vh;
+    border-radius: 60px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: hsla(263, 49%, 82%, 0.751);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.584);
+    outline: 1px solid black; /* Set a permanent outline */
+    border: none; /* Adjust border if needed */
+}
+#action-btn{
+    background: hsla(263, 67%, 57%, 0.559);
+}
+    
+
+
